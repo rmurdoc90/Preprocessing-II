@@ -1,1 +1,28 @@
 // Navigation Styles here
+
+header{
+    height:8vh;
+    display: flex;
+    border-bottom: @navigation-border 2px dashed;
+    .fun-bus{
+        width:35%;
+        .displayFlex(center,center);
+        height:auto;
+    }
+    .nav{
+        width:65%;
+        .displayFlex(center,center);
+        height:auto;
+        nav{
+            width:100%;
+            height: auto;
+            .displayFlex(space-between, center);
+            padding:0 15%;
+
+            a{
+                font-size: 2rem;
+                text-decoration: none;
+            }
+        }
+    }
+}
